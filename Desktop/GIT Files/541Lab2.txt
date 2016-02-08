@@ -1,0 +1,127 @@
+﻿Daniella Assing
+541 Lab #2 
+Feb 08 2016
+
+
+Part 1
+1. Your identifications (how many species do you recognize in the group, and which specimens belong to which species). Explain how and why you came to this conclusion.
+I recognise three species in this group:
+Group 1 - Species A
+-very pronounced, square ribs
+-tend to be larger
+-average u:d ratio is largest
+Samples 18, 6, 2, 1, 8, 11, 20, 21, 13
+
+
+
+
+Group 2 - Species B
+-ribs visible on shell but are very close together
+-average u:d ratio may be in-between
+Samples 25, 22, 15, 12, 10, 9, 4 
+
+
+Group 3 - Species C
+-average u:d is smallest
+-no visible ribs
+-opening of shell the most sharply angled
+Samples 3, 5, 7, 14, 16, 17, 19, 23, 24
+
+
+1. The morphological features you used to distinguish each species, including whatever combination of qualitative or quantitative traits you think are important.
+Hypothesis: Species A, B and C can be categorised based on their d:c ratios coupled with the type of chamber that is present. Species A has the largest u:d ratio with prominent chambers; Species C has the smallest u:d ratio with no visible chambers and Species B has an average middle u:d ratio with slightly pronounced chambers. 
+The morphological features I used were the extent of ornamentation on the surface (i.e. how pronounced the patterns were) and also the d:u ratio. I decided not to consider the width to the diameter ratio (w:d) because I felt that this wouldn’t be sufficient to classify a species since sexual dimorphism could easily be an influence here, or this ratio could depend on the life stage of the animal. I used ornamentation because different species could have developed this for different reasons, for example, to make the shell harder and more resistant to predation and/or more adapted to deeper waters where they would be able to withstand higher pressure. I also took into account the u:d ratio (umbilical width:diameter) because these organisms preserve their juvenile stage as they develop into an adult.
+Species A:
+> SpeciesAUD<-c(0.38, 0.41, 0.33, 0.45, 0.48, 0.47, 0.38, 0.41, 0.40)
+> length(SpeciesAUD)
+[1] 9
+> mean(SpeciesAUD)
+[1] 0.4122222
+Species B:
+> SpeciesBUD<-c(0.34, 0.35, 0.39, 0.41, 0.35, 0.39, 0.34)
+> length(SpeciesBUD)
+[1] 7
+> mean(SpeciesBUD)
+[1] 0.3671429
+
+
+Species C:
+> SpeciesCUD<-c(0.39, 0.29, 0.42, 0.26, 0.28, 0.32, 0.29, 0.33, 0.40)
+> length(SpeciesCUD)
+[1] 9
+> mean(SpeciesCUD)
+[1] 0.3311111
+From calculation of the mean u:d ratios of each species it seems that the predicted hypothesis is true and that the samples can be differentiated based on the u:d ratios. Species A as predicted has the largest mean u:d ratio (0.41), Species C has the smallest mean u:d ratio (0.33) and Species B is median (0.36). I conclude that, along with the visibility and spacing of the ribbing, the u:d ratio is a good tool to help categorise these species. 
+1. The nature of ontogenetic change, if any, in the species. Explain your reasoning.
+Species A and B show the clearest ontogenetic changes. According to what I have read, as the organism matures the chambers, which are at first far apart, eventually become closer when the adult stage is reached. This can be clearly seen in samples 21 and 11 of species A. Based on this I re-assigned sample 13 (initially species B) to species A because its ornamentation does look more similar to A than B although it is not very pronounced, showing that this may be a very juvenile stage.
+1. The possibility of sexual dimorphism as a cause of morphological differences and how you evaluated that possibility. 
+Several sources have stated that the adult females are larger than the males, possibly because they need to carry the eggs. However from the limited data that is provided (or the limited knowledge that I have) I do not believe it is possible to investigate sexual dimorphism because a small specimen could be either a male, or it could be a small juvenile. At this point I don’t think there is a clear way to tell that difference. To investigate this difference I would first have to identify all the adults from the juveniles. After singling out the adults I would create a frequency plot using R and using the diameters to see the size distribution of the population.
+Part II Questions - Subsection 1
+1. Each element of the plethodon list has a name. What are they?
+>objects(plethodon)
+“land” “links” “species” “site” “outline”
+1. What class is each object?
+>class(plethodon[“land”])
+>class(plethodon[“links”])
+>class(plethodon[“species”])
+>class(plethodon[“site”])
+>class(plethodon[“outline”])
+Objects are “lists”.
+1. What are the dimensions of the first object in the plethodon list?
+MyArrayLand<-array(plethodon["land"])
+>dim(MyArrayLand)
+>[1] 1
+
+
+Part II Questions - Subsection 2
+1. Use the hummingbird dataset. Which object in the list records the landmark data?
+“land”
+1. Perform a procrustes on the landmark data.
+> ProcrustesHummingbirds<-gpagen(hummingbirds[[“land”]])
+1. Perform a PCA on the hummingbird data.
+>plotTangentSpace(ProcrustesHummingbirds[["coords"]],warpgrids=FALSE,verbose=FALSE)
+1. How many "species" of hummingbird are there?
+I think there is only 1 species. The data points are scattered around the axes.
+Part III Questions
+1. What is the synapomorphy of the clade containing species D and E?
+The synapomorphy of the clade containing these two species is fangs longer than 6 inches. 
+1. What is a plesiomorphic character of that clade?
+A plesiomorphic character is an ancestral trait. The plesiomorphic character for this clade is sulphuric odour. 
+1. What is the synapomorphy of the clade containing species A and B?
+The synapomorphy of this clade is adorable eye-lashes.
+1. Which taxa have a sulfurous odor?
+Taxa C, D and E have a sulphurous odour. 
+1. What character distinguishes species D from species E?
+The characteristic that distinguishes species E from D is that E has laser death rays while D does not. 
+1. Are adorable eyelashes a synapomorphy or an autapomorphy?
+Adorable eyelashes are a synapomorphy.
+1. Traditionally, the five taxa are grouped into three families. Determine if each family is monophyletic, paraphyletic, or polyphyletic.
+D and E are monophyletic (Family 3).
+B and C are polyphyletic (Family 2).
+A is paraphyletic (Family 1).
+1. More recently, species A has been grouped in a family with species D and E. Is this advisable? Why or why not?
+This is not advisable because A, D and E do not all share the same synapomorphy. 
+1. Determine if the following groups are monophyletic, paraphyletic, or polyphyletic.
+A, B and C - paraphyly.
+C, D and E - monophyly.
+C and D - paraphyly.
+A and B - monophyly.
+B, D and E - polyphyly.
+The following figure shows the pattern of shape change during ontogeny of the bivalve Gryphaea arcuata, from the early juvenile (A) to late juvenile (B) to adult (C). Note the magnification factors of the juvenile stages.
+  Here are adults of Gryphaea mccullochi (D) and Gryphaea gigantea (E). They are shown at x1.
+
+
+    The following figure shows the ontogeny of the trilobite Olenellus lapworthi (thin vertical arrow on left) and the evolutionary relationship of five species of Olenellus (large diagonal arrow).
+  
+
+
+
+
+
+Part IV Questions
+1. Assuming that Gryphaea arcuata represents the ancestor, what type of heterochrony is most likely responsible for evolution of these two species?
+Peramorphosis, or continued growth past the adult stage, is likely responsible for the evolution of species D. Paedomorphosis is responsible for species E.
+1. Which species of Gryphaea has undergone a greater degree of heterochrony?
+Gryphaea mccullochi has undergone a greater degree of heterochrony.
+1. What type of heterochrony is represented in the Olenellus example??
+Paedomorphosis is the heterochrony represented since the trilobite reverts back to its juvenile stage as more evolutionary relationships are established.
