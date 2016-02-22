@@ -1,0 +1,18 @@
+####Daniella Assing
+Geosci 541
+Feb 15 1016
+####Reading #4
+#####Cenozoic latitudinal response curves: individualistic changes in the latitudinal distributions of marine bivalves and gastropods.
+Authors: Andrew A. Zaffos and Arnold I. Miller (2014)
+
+####Summary: 
+This paper uses statistical methods, namely and Gaussian logistic regression model to analyse and interpret marine ~~ecological~~ `fossil occurrence` data from the Cenozoic. It ~~considers~~`addresses` the “ubiquitous hollow curve” and aims to provide insight into the latitudinal preferences of several species of bivalves `and gastropods`, using data downloaded from the PaleoDB website. It tries to answer several questions such as the extent of poleward latitudinal migration by species and whether latitudinal changes in habitat may have been influenced by specific geologic events. The paper concludes by finding that there has been no long-term poleward or equatorial shifts by the bivalves studied and that there may be a few explanations for this non-existing trend.`(it's important to note that this poleward shift has been suggested in other datasets)` It also concludes that the ubiquity of the hollow curve distributions show that the genera were not very affected by environmental and biological changes in their habitats.`(what specifically about the hollow curve? hollow curve of what?)`
+
+####What I liked about this paper: 
+First, I really liked the introduction of this paper because it immediately brought up the questions that were to be addressed overall and it was very direct and to the point. I liked these questions (such as whether there is a detectable overall pattern in latitudinal migration, and whether this migration is driven by the expansion of the genus’ geographic range) because it provides a good example of what the data in the Paleo website could be used for.`(agreed!)` Several statistical methods were used to analyse the data and I liked that the significance of certain values was clearly explained. For example, it was stated that the y-coordinate of the Guassian logistic regression would represent the genus’ peak abundance and that the x-coordinate represents the preferred latitude of the organism. I also like that there was an entire section dedicated to talking about the data that was recovered from the PaleoDB as I never would have thought of doing this myself. The diagrams were also very clear in meaning and easy to understand. Figure 2 for example shows cross-plotted data for the preferred latitude and latitudinal tolerance for each age. Another thing I noticed about this paper is that it frequently references the difficulties in interpreting the data, or in calculations and it cites sources who have pointed out those difficulties. For example it says that stage-level curves are difficult to interpret because of smaller sample sizes, but it also says that although this occurs it is still possible to make interpretations because of the pattern of hollow curves which remains. I found it very helpful that the paper directly acknowledges these types of difficulties and then makes it clear how those difficulties were overcome.
+> This is a pretty good asessment of what you liked about the paper.
+
+####What I didn’t like about this paper: 
+I’m not sure I understood what “binning” meant (in the data section) and I was also not very sure what “latitudinal tolerance” was. Is this how well an organism is able to survive at a certain latitude? I also didn’t understand a lot of the statistical methods that were used although I did like that the papers from which the methods were referenced were also provided. 
+
+> Don't forget about the section for figures and tables! Overall, though, this is a good summary.
