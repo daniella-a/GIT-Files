@@ -1,0 +1,17 @@
+﻿Daniella Assing
+Geosci 541
+Feb 22 2106
+Reading # 5 
+
+
+Global Biodiversity Scenarios for the Year 2100
+Authors: Sala et al., 2000
+
+
+Summary: The purpose of this paper is to project global biodiversity changes for the year 2100 based on several factors that have been involved in changing the environment. Humans are, of course, the primary drivers of these environmental changes and their land use practices endanger many species. The authors of the paper develop a study in which they look at expected scenarios of biodiversity change in ten different terrestrial and marine biomes while controlling changes in what they consider the five most important factors of environmental change: land use, atmospheric CO2, concentration, nitrogen deposition and acid rain, and intentional or unintentional biotic exchanges. They calculated the change that was expected to occur in the biome based on their parameters and then estimated the impact that such changes would have on the biomes. Higher latitudes are expected to be more intensely affected by climate compared to lower latitudes near the tropics, and land use is estimated to be the largest impacting factor in the tropics. 
+
+
+What I liked about this paper: I think that the biggest thing I took away from this paper is the idea of “synergistic interactions” or how the factors that the authors consider interact with each other to produce various effects which might be more intense than if only one of the factors occurred on its own. This is something that I had not previously thought about when thinking of how biodiversity today is affected by human activities. I thought the the maps that were provided were great ways to visualise the possible outcomes based on “No interactions” between factors, “Antagonistic interactions” and “Synergistic interactions”. Finally, I also liked that the paper broke down and concisely explained the effects that were expected for each biome. For example, it was found that carbon dioxide had a greater impact on terrestrial biomes than freshwater biomes, and that the tropics would be severely impacted by unsustainable practices in land use.
+
+
+What I didn’t like about this paper: When I first started reading this paper I didn’t like it because the introduction seemed a little too dramatic for a scientific paper and it almost didn’t seem credible and I almost felt as though I should stop reading. From this paper I think I’ve learned the importance of not being too dramatic in scientific because it can take away from valid points made later in the paper. I also didn’t like this paper because, coupled with the introduction, I felt that there was too little information on the methods which further made me feel as though this wasn’t a credible paper.
